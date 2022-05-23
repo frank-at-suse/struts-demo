@@ -36,7 +36,7 @@ metadata:
   name: struts
   namespace: struts
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: struts
   ports:

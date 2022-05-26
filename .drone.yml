@@ -1,0 +1,11 @@
+kind: pipeline
+type: kubernetes
+name: struts-demo
+
+steps:
+- name: struts-demo
+  image: skywalke34/struts
+  settings:
+    repo: skywalke34/struts
+    tags: 
+      - latest

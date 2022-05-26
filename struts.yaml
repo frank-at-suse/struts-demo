@@ -36,7 +36,7 @@ metadata:
   name: struts
   namespace: struts
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: struts
   ports:
